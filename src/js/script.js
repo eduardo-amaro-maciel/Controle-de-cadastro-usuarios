@@ -42,6 +42,7 @@ const inserirNoBanco = (nome, senha, email) => {
 const telaEdicao = (nome, senha, email) => {
 
     return new Promise((resolve, reject) => {
+        
         let tela = document.querySelector('.tela-de-edicao').style
         tela.display = 'flex'
     
